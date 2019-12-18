@@ -42,7 +42,7 @@ function MainPage() {
 
   return (
     <div className="MainPage" style={{height: '100%', position: 'flex', paddingTop: '20%', paddingBottom: '20%'}}>
-      {/* makemakemake the styles below a theme and use useContext(themeContext)*/}
+      {/* make the styles below a theme and use useContext(themeContext)*/}
       <div className="hooksDemoTables" style={{ width: '100%', backgroundColor: '', display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
         <div style={{padding: '5px 5px 20px 5px', width: '50%', float: 'right'}}>
           <NameTable/> 

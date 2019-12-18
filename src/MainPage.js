@@ -44,11 +44,11 @@ function MainPage() {
     <div className="MainPage" style={{backgroundColor: 'black', height: '100%'}}>
       {/* makemakemake the styles below a theme and use useContext(themeContext)*/}
       <div className="hooksDemoTables" style={{ width: '100%', backgroundColor: 'red', display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-        <div style={{padding: '5px 5px 5px 5px', width: '50%', float: 'left'}}>
-          <NameTableHooks/>
-        </div>
         <div style={{padding: '5px 5px 5px 5px', width: '50%', float: 'right'}}>
           <NameTable/> 
+        </div>
+        <div style={{padding: '5px 5px 5px 5px', width: '50%', float: 'left'}}>
+          <NameTableHooks/>
         </div>
       </div>
       <div className="billsTable">
